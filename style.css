@@ -1,0 +1,53 @@
+.wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 43);
+}
+
+.screen {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 80px;
+    padding: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.screen .previos {
+    font-size: 1.5rem;
+    color: rgb(238, 238, 193);
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.screen .previos {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.calc_btn_row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.8%;
+}
+
+.calc_btn {
+    background-color: #d8d8d8;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: none;
+    height: 100px;
+    flex-basis: 24.5%;
+    cursor: pointer;
+}
+
+.double {
+    flex-basis: 49.7%;
+}
