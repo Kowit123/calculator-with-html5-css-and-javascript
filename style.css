@@ -60,6 +60,14 @@
     background-color: #df974c;
     color: #ffff;
 }
+.calc_btn:last-child:hover {
+    background-color: #f1a757;
+    color: #ffff;
+}
+.calc_btn:last-child:active {
+    background-color: #c28441;
+    color: #ffff;
+}
 
 .double {
     flex-basis: 49.7%;
